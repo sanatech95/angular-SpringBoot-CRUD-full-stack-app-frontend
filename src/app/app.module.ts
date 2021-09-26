@@ -9,6 +9,10 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from "@angular/common";
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import { StudentListComponent } from './student-list/student-list.component';
+import { CreateStudentComponent } from './create-student/create-student.component';
+import { UpdateStudentComponent } from './update-student/update-student.component';
+import { StudentDetailsComponent } from './student-details/student-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { EmployeeDetailsComponent } from './employee-details/employee-details.co
     EmployeeListComponent,
     CreateEmployeeComponent,
     UpdateEmployeeComponent,
-    EmployeeDetailsComponent
+    EmployeeDetailsComponent,
+    StudentListComponent,
+    CreateStudentComponent,
+    UpdateStudentComponent,
+    StudentDetailsComponent
   ],
   imports: [
     BrowserModule,
